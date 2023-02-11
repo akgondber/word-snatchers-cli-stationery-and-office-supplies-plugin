@@ -1,0 +1,41 @@
+{
+  "name": "word-snatchers-cli-stationery-and-office-supplies-plugin",
+  "version": "1.0.0",
+  "description": "Stationery and office supplies plugin for word-snatchers-cli",
+  "license": "MIT",
+  "author": "Rushan Alyautdinov <akgondber@gmail.com>",
+  "type": "module",
+  "engines": {
+    "node": ">=14.16"
+  },
+  "scripts": {
+    "test": "uvu tests",
+    "prettify": "prettier --write ."
+  },
+  "files": [
+    "index.js",
+    "rounds/"
+  ],
+  "keywords": [
+    "consolegame",
+    "cli",
+    "wordsnatcherscliplugin",
+    "word-snatchers-cli-plugin",
+    "word-snatchers-cli",
+    "plugin",
+    "english",
+    "learning",
+    "training",
+    "practicing",
+    "words",
+    "stationery",
+    "officesupplies",
+    "office",
+    "accessories"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "uvu": "^0.5.6",
+    "prettier": "^2.8.4"
+  }
+}
